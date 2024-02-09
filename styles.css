@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://use.typekit.net/etw7xge.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: "Chau Philomene One";
+    src: url("fonts/ChauPhilomeneOne-Italic.ttf") format("truetype"),
+    url("fonts/ChauPhilomeneOne-Regular.ttf") format("truetype");
+}
+
+*{
+    box-sizing: border-box;
+    font-family:"Oswald";
+    font-weight: normal;
+    color:lavenderblush ;
+    /* border: 1px solid rgba(200,200,200,0.3); */
+}
+
+html{
+    background-color:rgba(20,0,50,1);
+}
+
+html, body{
+    margin: auto;
+    padding: auto;
+}
+
+.bar{
+    background-color: black;
+    padding:20px;
+
+}
+
+/* section{
+    border-top: 10px solid rgb(25,20,40);
+} */
+
+
+.main_header{
+    background-color: rgba(40, 40, 200, 0.1);
+    background-image: url("img/runeterraccg.png");
+    background-blend-mode:multiply;
+    background-position: 50% 39%;
+    background-size: 1950px;
+    padding: 30px;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    width: 80px;
+}
+
+
+.banner-name{
+    text-align: center;
+    margin: 0;
+    font-family: "storefront-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Chau Philomene One";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quote{
+    text-align: center;
+}
+
+#summary{
+    /* border:1px solid rgba(10,0,25,0); */
+    background-image: url(img/noxus_splash.jpg);
+    background-size: 2200px;
+    background-color: rgba(25, 20, 40, 0.9);
+    background-blend-mode:multiply;
+    background-position:81% 30%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#summary div p{
+    text-align: center;
+    width: 500px;
+    font-size: 24px;
+    margin: auto;
+}
+
+/* START OF INFO SECTION */
+
+#info{
+    background-color: rgba(20,20,80,0.95);
+    background-image: url(img/Dark-Mysterious-Forest-AI-Generated-4K-Wallpaper.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 10px 10px;
+}
+
+.gameplay{
+    padding: 1rem 2rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.gameplay-detail{
+    display: inline-block;
+    margin: 0px 50px;
+    vertical-align: top;
+}
+
+.role{
+    border: 10px solid rgba(60, 40, 150, 1);
+    background-color: rgba(10,0,25,0.95);
+    border-radius: 10px;
+    text-align: center;
+    width: 700px;
+    padding: 20px 50px;
+    margin-bottom: 10px;
+}
+
+div.role h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.role img{
+    width:30%;
+}
+
+.role h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span.pro h3{
+    color: rgb(0, 255, 0);
+}
+
+span.con h3{
+    color: red;
+}
+
+.role p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.role ul{
+    text-align: center;
+}
+
+.role li{
+    font-size: 24px;
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+
+thead{
+    height: 60px;
+    font-size: 35px;
+}
+
+th{
+    padding: auto;
+    background-color: darkslateblue;
+    padding: 30px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+td{
+    background-color: rgb(62, 68, 97);
+    border-radius: 2px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+td+td{
+    background-color:rgb(13, 12, 37) ;
+    width: 900px;
+    text-align: center;
+}
+
+td+td+td{
+    background-color: rgb(62, 68, 97);
+    border-radius: 2px;
+    font-size: 24px;
+    padding: 20px;
+    width:200px;
+}
+
+td+td+td+td{
+    background-color:rgb(13, 12, 37)  ;
+    width: 900px;
+    text-align: center;
+}
+
+table{
+    border: 8px solid rgba(60, 40, 150, 1);
+    background-color: rgba(10,0,25,0.95);
+    margin-top: 20px;
+    width: 800px;
+    /* height: 300px; */
+    border-radius: 10px;
+}
+
+
+/* END OF INFO SECTION */
+
+
+/* START OF LORE SECTION */
+
+#lore{
+    background-color: rgba(15,0,35,0.8);
+    background-image: url("img/lore-env.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+#lore h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lore{
+    /* border: 1px solid black; */
+    /* margin: 1rem; */
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.lore-detail{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 750px;
+    padding: 1rem 1rem;
+    margin: 0px 70px;
+    vertical-align: middle;
+}
+
+.lore-text{
+    border: 10px solid rgba(60, 40, 150, 1);
+    background-color: rgba(10,0,25,0.95);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.lore-detail img{
+    width: 100%;
+}
+
+.lore-detail p{
+    font-size: 24px;
+}
+
+/* END OF LORE SECTION */
+
+
+/* START OF SKILLS SECTION */
+
+#skills{
+    background-color: rgba(10,0,25,0.9);
+    background-image: url("img/lol-wild-rift-zed-42mwujakbfzpb4eh.png");
+    background-size:cover;
+    background-blend-mode: multiply;
+    background-position: 30% 60%;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.skill{
+    border: 10px solid rgba(60, 40, 150, 1);
+    background-color: rgba(15, 20, 85, 1);
+    border-radius: 15px;
+    width: 900px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.skill h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.skill h3 strong{
+    border: 5px solid rgba(40, 40, 140, 0.6);
+    background-color: rgba(30, 30, 40, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    font-family: "Chau Philomene One";
+    font-size: 35px;
+}
+
+.skill-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.skill img{
+    border: 5px solid rgb(211, 179, 34);
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 11%;
+}
+
+/* .skill-header h3{
+    display: flex;
+    border: 5px solid rgba(40, 40, 140, 0.6);
+    background-color: rgba(30, 30, 40, 0.6);
+    color: rgb(211, 173, 50);
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+
+}
+.skill-header h3 strong{
+    color: rgb(211, 173, 50);
+} */
+
+.skill-header ul{
+    border: 5px solid rgba(40, 40, 140, 0.6);
+    background-color: rgba(30, 30, 40, 0.6);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0 auto;
+    font-size: 15px;
+    /* padding: 30px 10px; */
+    /* padding-right: auto; */
+    /* margin: 10px 10px; */
+
+}
+
+.skill-header li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+
+nav ul{
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+
+
+.magic-damage{
+    border: 5px solid rgba(40, 40, 140, 0.6);
+    background-color: rgba(30, 30, 40, 0.6);
+    border-radius: 10px;
+    float: right;
+    padding: 0px 40px;
+    margin-top: 10px;
+}
+
+.magic-damage strong{
+    font-size: 17px;
+}
+
+/* .passive{
+    background-image: url("img/banner.png");
+    background-size: cover;
+    background-color: rgba(20, 0, 90, 0.6);
+    background-blend-mode: multiply;
+    background-position: 0% 100%;
+}
+
+.q{
+    background-color: rgba(20, 0, 90, 0.6);
+    background-blend-mode: multiply;
+    background-size: 1500px;
+    min-width: auto;
+    max-width: auto;
+    background-position: 50% 50%;
+}
+
+.w{
+    background-image: url("img/distortion.jpg");
+    background-size: cover;
+    background-color: rgba(20, 0, 90, 0.6);
+    background-blend-mode: multiply;
+    background-position: 0% 80%;
+}
+
+.e{
+    background-image: url("img/chains.png");
+    background-size: 2000px;
+    background-color: rgba(20, 0, 90, 0.6);
+    background-blend-mode: multiply;
+    background-position: 80% 50%;
+}
+
+.r{
+    background-image: url("img/Mimic.png");
+    background-size: cover;
+    background-color: rgba(20, 0, 90, 0.6);
+    background-blend-mode: multiply;
+    background-position: 50% 50%;
+} */
+
+.dmg-display{
+    display: inline-block;
+}
+
+.dmg-display div{
+    float: right;
+    width: 380px;
+    
+}
+
+.dmg-display p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.dmg-display video{
+    margin-top: 130px;
+}
+
+
+.skill video{
+    text-align: left;
+    border: 5px solid rgba(40, 40, 200, 0.6);
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+
+
+.footer{
+    display: block;
+    height: 200px;
+    background-color:rgba(45,35,75,1);
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin: 0px auto;
+}
+
+.footer ul, .footer h3{
+    text-align: center;
+}
+
+.footer li{
+    display: inline-block;
+    width: 200px;
+}
+
